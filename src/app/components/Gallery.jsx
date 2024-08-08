@@ -8,6 +8,12 @@ export default function ImageGallery() {
   const [mainCGC, setMainCGC] = useState([]);
 
   useEffect(() => {
+    if (process.env.NODE_ENV !== 'production') {
+      console.log('Supabase URL:', process.env.NEXT_PUBLIC_SUPABASE_URL);
+      console.log('Supabase ANON KEY:', process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
+    }
+
+    
     const fetchMainImages = async () => {
       const { data, error } = await supabase.storage.from('CGC-Wargaming').list('');
 
