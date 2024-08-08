@@ -27,7 +27,7 @@ export default function ImageGallery() {
     <div className="columns-2 sm:columns-3 gap-7">
       {mainCGC.map((CGC) => (
         <Link href={`/Gallery/${encodeURIComponent(CGC.name)}`} key={CGC.name}>
-          <img
+          <img 
             src={`${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/CGC-Wargaming/${CGC.name}`}
             alt={CGC.name}
             className="cursor-pointer border-2 border-solid rounded-xl mb-7"
