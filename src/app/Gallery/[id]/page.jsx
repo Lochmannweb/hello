@@ -70,7 +70,7 @@ export default function ImageAndDataPage({ params }) {
 
   return (
     <div className="page home text-white container mx-auto p-4 mb-10">
-      <div className="flex justify-center mb-4 mt-20">
+      <div className="flex justify-center mb-4 mt-10">
         <img src={selectedImage} alt={params.id} className="max-w-full rounded-lg shadow-lg w-1/1 h-1/1 sm:w-1/2 sm:h-1/2" />
       </div>
       <div className="flex justify-center gap-4 overflow-x-auto">

@@ -39,7 +39,7 @@ export default function Menu() {
         </div>
     </nav>  
 
-    <div className={`fixed inset-0 bg-Black text-White transition-transform transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'} z-50 sm:hidden flex flex-col`}>
+    <div className={`fixed inset-0 bg-menu-bg text-White transition-transform transform ${menuOpen ? 'translate-x-0' : 'translate-x-full'} z-50 sm:hidden flex flex-col`}>
         <div className='p-5 flex justify-end'>
             <button
             className="text-White"
