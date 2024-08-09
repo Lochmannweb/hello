@@ -71,9 +71,9 @@ export default function ImageAndDataPage({ params }) {
   return (
     <div className="page home text-white container mx-auto p-4">
       <div className="flex justify-center mb-4 mt-20">
-        <img src={selectedImage} alt={params.id} className="max-w-full rounded-lg shadow-lg w-1/2 h-1/2 sm:w-1/3 sm:h-1/3" />
+        <img src={selectedImage} alt={params.id} className="max-w-full rounded-lg shadow-lg w-1/1 h-1/1 sm:w-1/2 sm:h-1/2" />
       </div>
-      <div className="flex justify-center gap-4">
+      <div className="flex justify-center gap-4 overflow-x-auto">
         {relatedImages.map((image) => (
           <img
             key={image.name}
