@@ -59,6 +59,7 @@ export default function Menu() {
 
         <ul className=''>
             <li className='grid text-center gap-3' onClick={toggleMenu}>
+                <Link href="/" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Home</Link>
                 <Link href="/About" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>About</Link>
                 <Link href="/Gallery" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Gallery</Link>
                 <Link href="/Contact" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Contact</Link>
