@@ -59,10 +59,10 @@ export default function Menu() {
 
         <ul className=''>
             <li className='grid text-center gap-3' onClick={toggleMenu}>
-                <Link href="/" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Home</Link>
-                <Link href="/About" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>About</Link>
+                <Link href="/" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Forside</Link>
+                <Link href="/About" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Om CGC</Link>
                 <Link href="/Gallery" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Gallery</Link>
-                <Link href="/Contact" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Contact</Link>
+                <Link href="/Contact" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Kontakt</Link>
 
                 <div className='py-10 grid gap-3'>
                 <div className="flex justify-center gap-5">
@@ -139,7 +139,7 @@ export default function Menu() {
     <nav className='sm:p-5 sm:bg-transparent bg-menu-bg sm:rounded-full'>
         <ul className='sm:flex hidden justify-between gap-3 p-2'>
             <li className='flex gap-3 ml-5'>
-                <Link href="/About" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>About</Link>
+                <Link href="/About" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Om CGC</Link>
                 <Link href="/Gallery" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo' >Gallery</Link>
             </li>
 
@@ -148,7 +148,7 @@ export default function Menu() {
             </li>
 
             <li className='flex gap-3 mr-5'>
-                <Link href="/Contact" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Contact</Link>
+                <Link href="/Contact" prefetch={false} className='text-White hover:text-cgc-logo focus:text-cgc-logo'>Kontakt</Link>
             </li>
         </ul>
     </nav>
